@@ -434,3 +434,8 @@ async def ask_notice_question(req: AskRequest):
     except Exception as e:
         logger.warning(f"Ask query LLM call failed or rate-limited ({e}). Using grounded response.")
         return rule_res
+
+if __name__ == "__main__":
+    import uvicorn
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run("main:app", host="0.0.0.0", port=port)
