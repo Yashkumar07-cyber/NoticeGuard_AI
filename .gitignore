@@ -1,14 +1,12 @@
 # NoticeGuard AI - Root Git Ignore
 
-# Environment Variables & Secrets (CRITICAL: NEVER COMMIT REAL KEYS)
+# Environment Variables & Secrets (CRITICAL: NEVER COMMIT ANY ENV FILES)
 .env
+.env*
 *.env
-backend/.env
-frontend/.env.local
-frontend/.env.*.local
-!.env.example
-!*.env.example
-!backend/.env.example
+*.env*
+backend/.env*
+frontend/.env*
 
 # Python build artifacts
 __pycache__/
