@@ -1,0 +1,98 @@
+{
+  "id": "scholarship",
+  "title": "National Merit Scholarship Scheme 2024-25",
+  "raw_notice_text": "MINISTRY OF EDUCATION & HIGHER LEARNING\nCENTRAL SCHOLARSHIP CELL\nNOTICE NO. ED/2024/SCH/891\nDate: 10th October 2024\n\nSUBJECT: APPLICATIONS INVITED FOR NATIONAL MERIT SCHOLARSHIP 2024-25\n\n1. PURPOSE:\nFinancial assistance of Rs. 24,000 per annum for meritorious undergraduate students from economically weaker sections.\n\n2. ELIGIBILITY CRITERIA:\nStudents enrolled in regular 1st or 2nd year degree courses who secured at least 75% marks in Class 12th board exams with annual parental income below Rs. 2,50,000.\n\n3. LAST DATE FOR SUBMISSION:\nThe portal will strictly close on 15th November 2024 at 11:59 PM IST. Late submissions will be rejected without exception.\n\n4. MANDATORY DOCUMENTS REQUIRED:\nApplicants must submit self-attested copies of:\n- Class 12 Marksheet\n- Income Certificate issued by Tehsildar\n- Valid College ID Card\n- Bank Passbook Copy (Aadhaar linked)\n\n5. APPLICATION FEE:\nNo application fee is required for this scholarship scheme. Applying is completely free.\n\n6. HELP DESK & INQUIRIES:\nFor any clarification, contact scholar-cell@gov.edu.in or call 011-23384501 during working hours (10 AM - 5 PM).",
+  "analysis": {
+    "purpose": {
+      "value": "Financial assistance of Rs. 24,000 per annum for meritorious undergraduate students",
+      "status": "stated",
+      "evidence": "Financial assistance of Rs. 24,000 per annum for meritorious undergraduate students from economically weaker sections.",
+      "region": "Paragraph 1 (Purpose)"
+    },
+    "eligibility": {
+      "value": "1st or 2nd year degree students with min 75% in 12th and family income below Rs. 2,50,000",
+      "status": "stated",
+      "evidence": "Students enrolled in regular 1st or 2nd year degree courses who secured at least 75% marks in Class 12th board exams with annual parental income below Rs. 2,50,000.",
+      "region": "Paragraph 2 (Eligibility Criteria)"
+    },
+    "deadline": {
+      "value": "15th November 2024, 11:59 PM IST",
+      "status": "stated",
+      "evidence": "The portal will strictly close on 15th November 2024 at 11:59 PM IST.",
+      "region": "Paragraph 3 (Last Date for Submission)"
+    },
+    "required_documents": [
+      {
+        "value": "Class 12 Marksheet",
+        "status": "stated",
+        "evidence": "Class 12 Marksheet",
+        "region": "Paragraph 4 (Mandatory Documents)"
+      },
+      {
+        "value": "Income Certificate issued by Tehsildar",
+        "status": "stated",
+        "evidence": "Income Certificate issued by Tehsildar",
+        "region": "Paragraph 4 (Mandatory Documents)"
+      },
+      {
+        "value": "Valid College ID Card",
+        "status": "stated",
+        "evidence": "Valid College ID Card",
+        "region": "Paragraph 4 (Mandatory Documents)"
+      },
+      {
+        "value": "Aadhaar linked Bank Passbook Copy",
+        "status": "stated",
+        "evidence": "Bank Passbook Copy (Aadhaar linked)",
+        "region": "Paragraph 4 (Mandatory Documents)"
+      }
+    ],
+    "contact": {
+      "value": "scholar-cell@gov.edu.in | 011-23384501",
+      "status": "stated",
+      "evidence": "contact scholar-cell@gov.edu.in or call 011-23384501 during working hours (10 AM - 5 PM).",
+      "region": "Paragraph 6 (Help Desk)"
+    },
+    "fee": {
+      "value": "Free (No application fee)",
+      "status": "stated",
+      "evidence": "No application fee is required for this scholarship scheme. Applying is completely free.",
+      "region": "Paragraph 5 (Application Fee)"
+    },
+    "actions": [
+      {
+        "step": 1,
+        "task": "Collect Class 12 marksheet and Tehsildar-issued income certificate.",
+        "source_evidence": "Class 12 Marksheet and Income Certificate issued by Tehsildar",
+        "done": false
+      },
+      {
+        "step": 2,
+        "task": "Ensure bank account is linked with Aadhaar card.",
+        "source_evidence": "Bank Passbook Copy (Aadhaar linked)",
+        "done": false
+      },
+      {
+        "step": 3,
+        "task": "Complete online application form before 15th November 2024 11:59 PM IST.",
+        "source_evidence": "The portal will strictly close on 15th November 2024 at 11:59 PM IST.",
+        "done": false
+      },
+      {
+        "step": 4,
+        "task": "Save the submission confirmation receipt for college verification.",
+        "source_evidence": "Valid College ID Card",
+        "done": false
+      }
+    ],
+    "summary": "National Merit Scholarship provides Rs. 24,000/year for undergraduate students with 75%+ marks and parental income under Rs. 2,50,000. Apply online without fee by 15th November 2024.",
+    "uncertainties": [],
+    "conflicts": [],
+    "limitations": [
+      "Only for regular degree students in 1st or 2nd year",
+      "Late submissions not accepted"
+    ],
+    "language_detected": "en",
+    "raw_notice_text": "MINISTRY OF EDUCATION & HIGHER LEARNING\nCENTRAL SCHOLARSHIP CELL\nNOTICE NO. ED/2024/SCH/891\nDate: 10th October 2024\n\nSUBJECT: APPLICATIONS INVITED FOR NATIONAL MERIT SCHOLARSHIP 2024-25\n\n1. PURPOSE:\nFinancial assistance of Rs. 24,000 per annum for meritorious undergraduate students from economically weaker sections.\n\n2. ELIGIBILITY CRITERIA:\nStudents enrolled in regular 1st or 2nd year degree courses who secured at least 75% marks in Class 12th board exams with annual parental income below Rs. 2,50,000.\n\n3. LAST DATE FOR SUBMISSION:\nThe portal will strictly close on 15th November 2024 at 11:59 PM IST. Late submissions will be rejected without exception.\n\n4. MANDATORY DOCUMENTS REQUIRED:\nApplicants must submit self-attested copies of:\n- Class 12 Marksheet\n- Income Certificate issued by Tehsildar\n- Valid College ID Card\n- Bank Passbook Copy (Aadhaar linked)\n\n5. APPLICATION FEE:\nNo application fee is required for this scholarship scheme. Applying is completely free.\n\n6. HELP DESK & INQUIRIES:\nFor any clarification, contact scholar-cell@gov.edu.in or call 011-23384501 during working hours (10 AM - 5 PM)."
+  }
+}

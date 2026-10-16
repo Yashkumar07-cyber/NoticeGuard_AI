@@ -1,0 +1,135 @@
+{
+  "brand": "NoticeGuard AI",
+  "tagline": "Turn confusing notices into clear action checklists",
+  "demoBadge": "Demo data",
+  "privacyNotice": "Your notice stays in this session. Nothing is saved.",
+  "hero": {
+    "headline": "Know what the notice really asks you to do.",
+    "subhead": "Plain-language, evidence-backed action checklist in English and Hindi. Only states what the notice says.",
+    "flatten": "Flatten 2D",
+    "view3D": "View in 3D",
+    "dragToRotate": "Drag to rotate",
+    "resetView": "Reset angle"
+  },
+  "upload": {
+    "title": "Analyze your notice",
+    "dropzoneTitle": "Drop notice image or choose file",
+    "dropzoneSub": "JPG or PNG up to 8 MB",
+    "or": "or",
+    "chooseFile": "Choose file",
+    "tabImage": "Upload image",
+    "tabText": "Paste notice text",
+    "textPlaceholder": "Paste circular, scholarship, exam, or public instruction text here...",
+    "textMinHint": "Enter at least 30 characters to analyze",
+    "analyzeBtn": "Analyze notice",
+    "analyzingBtn": "Analyzing...",
+    "cancelBtn": "Cancel analysis",
+    "trySample": "Try a sample notice",
+    "samples": {
+      "scholarship": "Scholarship notice",
+      "no_deadline": "Notice with no deadline",
+      "conflicting": "Notice with conflicting dates"
+    },
+    "errors": {
+      "wrongType": "Only JPG, PNG or pasted text work. Your file was a .{ext}.",
+      "tooLarge": "File is too large. Maximum size is 8 MB.",
+      "unreadable": "We can't read this image clearly. Upload a sharper photo or paste the text.",
+      "modelFailure": "Something went wrong reading this notice. Try again.",
+      "network": "No connection. Check your internet and try again.",
+      "retry": "Retry"
+    }
+  },
+  "results": {
+    "nav": {
+      "newNotice": "New notice",
+      "confirmNewNotice": "You have ticked items on your checklist. Starting a new notice will clear your progress. Continue?",
+      "viewNotice": "See original notice",
+      "noticeTab": "Notice",
+      "detailsTab": "Details",
+      "checklistTab": "Checklist",
+      "askTab": "Ask AI"
+    },
+    "summaryTitle": "Notice summary",
+    "attentionTitle": "Needs your attention",
+    "attentionSub": "These items require your confirmation or decision before proceeding.",
+    "confirmationsTitle": "Your confirmations",
+    "keyDetailsTitle": "Key details",
+    "fields": {
+      "purpose": "Purpose",
+      "eligibility": "Eligibility",
+      "deadline": "Deadline",
+      "required_documents": "Required documents",
+      "contact": "Contact details",
+      "fee": "Application fee"
+    },
+    "states": {
+      "stated": "Stated in notice",
+      "not_stated": "Not stated in this notice",
+      "uncertain": "Please confirm",
+      "conflicting": "Conflicting information",
+      "confirmed_by_you": "Stated: confirmed by you",
+      "edited_by_you": "Edited by you",
+      "not_used": "Not used"
+    },
+    "actions": {
+      "seeInNotice": "See in notice",
+      "confirm": "Confirm",
+      "edit": "Edit value",
+      "save": "Save",
+      "cancel": "Cancel",
+      "useThis": "Use this one",
+      "draftMessage": "Draft a message",
+      "copyChecklist": "Copy checklist",
+      "copiedToast": "Checklist copied",
+      "shareWhatsApp": "Share on WhatsApp",
+      "downloadIcs": "Download .ics calendar file",
+      "icsDisabledTooltip": "Download .ics is only available when a verified deadline is stated or confirmed.",
+      "readAloud": "Read aloud",
+      "pause": "Pause",
+      "stop": "Stop",
+      "guideMe": "Guide me"
+    },
+    "checklistTitle": "Action checklist",
+    "progress": "{done} of {total} done"
+  },
+  "draftDialog": {
+    "title": "Draft message to official contact",
+    "recipient": "To:",
+    "subject": "Subject: Inquiry regarding official notice",
+    "notStatedRecipient": "[contact not stated in notice]",
+    "copyMessage": "Copy message",
+    "copied": "Copied to clipboard",
+    "sendEmail": "Open email client",
+    "sendWhatsApp": "Open WhatsApp",
+    "close": "Close"
+  },
+  "ask": {
+    "title": "Ask about this notice",
+    "subtitle": "Answers strictly from the notice. Never invents facts.",
+    "placeholder": "e.g. Is there any application fee? What are the documents?",
+    "send": "Ask",
+    "listening": "Listening...",
+    "speechUnsupported": "Voice input isn't supported in this browser. Type your question instead.",
+    "noHindiVoice": "Hindi voice isn't available on this device.",
+    "listenIn": "Listen in",
+    "speakAnswers": "Speak answers",
+    "unanswerable": "The notice doesn't say this.",
+    "sourceEvidence": "Source evidence:",
+    "chips": [
+      "Is there an application fee?",
+      "Who is eligible to apply?",
+      "What documents do I need to attach?",
+      "What is the contact email or phone?"
+    ]
+  },
+  "guided": {
+    "title": "Guided Checklist Mode",
+    "stepOf": "Step {current} of {total}",
+    "sayHint": "Say or click: \"Next\", \"Repeat\", or \"Done\" to tick this step.",
+    "next": "Next",
+    "repeat": "Repeat",
+    "done": "Done (Mark complete)",
+    "exit": "Exit guided mode",
+    "finished": "All checklist steps completed! Well done."
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "conflicting",
+  "title": "State Technical University Annual Exam Registration",
+  "raw_notice_text": "STATE TECHNICAL UNIVERSITY EXAM CONTROLLER BOARD\nEXAMINATION NOTICE 2024/SEM-ODD/102\nIssue Date: 01 October 2024\n\nIMPORTANT NOTICE: Applications accepted till: 20th October 2024\n\nSUBJECT: REGISTRATION FOR WINTER END-SEMESTER EXAMINATIONS\n\nAll Bachelor of Technology (B.Tech) 3rd, 5th, and 7th semester students are instructed to fill the examination enrollment form on the university ERP portal.\n\nELIGIBILITY:\nStudents with minimum 75% aggregate class attendance and no pending semester fee dues.\n\nEXAM SCHEDULE & TIMELINE TABLE:\n- Form submission commencement: 05th October 2024\n- Portal Closing Date: 25th October 2024 (Revised)\n- Late fee window: 26th to 28th October 2024 (Rs. 500 extra)\n\nEXAMINATION FEES:\nStandard examination fee of Rs. 1,200 payable online through university gateway.\n\nREQUIRED DOCUMENTS:\nPrevious semester original grade card scan and department clearance certificate.\n\nHELP DESK CONTACT:\nexamcontroller@stu-univ.ac.in | Phone: 0120-4592000",
+  "analysis": {
+    "purpose": {
+      "value": "Registration and enrollment for Winter End-Semester B.Tech Examinations",
+      "status": "stated",
+      "evidence": "REGISTRATION FOR WINTER END-SEMESTER EXAMINATIONS",
+      "region": "Subject Heading"
+    },
+    "eligibility": {
+      "value": "B.Tech 3rd, 5th, 7th sem students with 75% attendance and no pending dues",
+      "status": "stated",
+      "evidence": "Students with minimum 75% aggregate class attendance and no pending semester fee dues.",
+      "region": "Eligibility section"
+    },
+    "deadline": {
+      "value": "Conflicting dates found in notice: 20th October 2024 vs 25th October 2024",
+      "status": "conflicting",
+      "evidence": "Header states: 'Applications accepted till: 20th October 2024', while Table states: 'Portal Closing Date: 25th October 2024 (Revised)'",
+      "region": "Header & Schedule Table",
+      "options": [
+        {
+          "value": "20th October 2024",
+          "snippet": "Applications accepted till: 20th October 2024",
+          "region": "Notice Header"
+        },
+        {
+          "value": "25th October 2024 (Revised)",
+          "snippet": "Portal Closing Date: 25th October 2024 (Revised)",
+          "region": "Schedule Table"
+        }
+      ]
+    },
+    "required_documents": [
+      {
+        "value": "Previous semester original grade card scan",
+        "status": "stated",
+        "evidence": "Previous semester original grade card scan",
+        "region": "Required Documents"
+      },
+      {
+        "value": "Department clearance certificate",
+        "status": "stated",
+        "evidence": "department clearance certificate",
+        "region": "Required Documents"
+      }
+    ],
+    "contact": {
+      "value": "examcontroller@stu-univ.ac.in | 0120-4592000",
+      "status": "stated",
+      "evidence": "examcontroller@stu-univ.ac.in | Phone: 0120-4592000",
+      "region": "Help Desk Contact"
+    },
+    "fee": {
+      "value": "Rs. 1,200 standard examination fee",
+      "status": "stated",
+      "evidence": "Standard examination fee of Rs. 1,200 payable online through university gateway.",
+      "region": "Examination Fees"
+    },
+    "actions": [
+      {
+        "step": 1,
+        "task": "Resolve the deadline conflict with your exam coordinator or college branch office.",
+        "source_evidence": "Applications accepted till: 20th October 2024 vs Portal Closing Date: 25th October 2024",
+        "done": false
+      },
+      {
+        "step": 2,
+        "task": "Obtain department clearance certificate ensuring 75% attendance.",
+        "source_evidence": "department clearance certificate and minimum 75% aggregate class attendance",
+        "done": false
+      },
+      {
+        "step": 3,
+        "task": "Log in to university ERP and upload previous semester grade card.",
+        "source_evidence": "fill the examination enrollment form on the university ERP portal",
+        "done": false
+      },
+      {
+        "step": 4,
+        "task": "Pay Rs. 1,200 exam fee before the chosen deadline to avoid late charges.",
+        "source_evidence": "Standard examination fee of Rs. 1,200 payable online",
+        "done": false
+      }
+    ],
+    "summary": "Winter exam enrollment for B.Tech students requires 75% attendance, grade card, clearance, and Rs. 1,200 fee. CRITICAL: The notice contains two conflicting closing dates (20 Oct vs 25 Oct).",
+    "uncertainties": [
+      "Two conflicting application closing dates: 20th October 2024 in notice header and 25th October 2024 in schedule table."
+    ],
+    "conflicts": [
+      {
+        "field": "deadline",
+        "option_a": {
+          "value": "20th October 2024",
+          "snippet": "Applications accepted till: 20th October 2024",
+          "region": "Notice Header"
+        },
+        "option_b": {
+          "value": "25th October 2024 (Revised)",
+          "snippet": "Portal Closing Date: 25th October 2024 (Revised)",
+          "region": "Schedule Table"
+        }
+      }
+    ],
+    "limitations": [
+      "Minimum 75% attendance required",
+      "Late fee of Rs. 500 applies if submitted after 25th October"
+    ],
+    "language_detected": "en",
+    "raw_notice_text": "STATE TECHNICAL UNIVERSITY EXAM CONTROLLER BOARD\nEXAMINATION NOTICE 2024/SEM-ODD/102\nIssue Date: 01 October 2024\n\nIMPORTANT NOTICE: Applications accepted till: 20th October 2024\n\nSUBJECT: REGISTRATION FOR WINTER END-SEMESTER EXAMINATIONS\n\nAll Bachelor of Technology (B.Tech) 3rd, 5th, and 7th semester students are instructed to fill the examination enrollment form on the university ERP portal.\n\nELIGIBILITY:\nStudents with minimum 75% aggregate class attendance and no pending semester fee dues.\n\nEXAM SCHEDULE & TIMELINE TABLE:\n- Form submission commencement: 05th October 2024\n- Portal Closing Date: 25th October 2024 (Revised)\n- Late fee window: 26th to 28th October 2024 (Rs. 500 extra)\n\nEXAMINATION FEES:\nStandard examination fee of Rs. 1,200 payable online through university gateway.\n\nREQUIRED DOCUMENTS:\nPrevious semester original grade card scan and department clearance certificate.\n\nHELP DESK CONTACT:\nexamcontroller@stu-univ.ac.in | Phone: 0120-4592000"
+  }
+}

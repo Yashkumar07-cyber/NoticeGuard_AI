@@ -1,0 +1,93 @@
+{
+  "id": "no_deadline",
+  "title": "College Identity Card & Library Enrollment Circular",
+  "raw_notice_text": "GOVERNMENT POLYTECHNIC INSTITUTE\nSTUDENT WELFARE & LIBRARY DIVISION\nCIRCULAR REF: GPI/ADM/2024/44\nDate: 04 September 2024\n\nATTENTION: ALL FRESHLY ADMITTED DIPLOMA STUDENTS\n\nAll newly enrolled students across all branches are hereby directed to complete their Central Library digital access registration and obtain physical RFID identity cards.\n\nELIGIBILITY:\nAll candidates who have confirmed admission in the 2024-2025 academic session through the centralized counseling process.\n\nPROCEDURE & DOCUMENTS REQUIRED:\nStudents must report to the Library Counter No. 3 with:\n1. Copy of Provisional Admission Allotment Letter\n2. Two recent stamp-sized color photographs\n3. Blood group verification slip from any certified clinic\n\nFEES:\nCard processing charge of Rs. 150 must be deposited at the Accounts counter.\n\nNOTE:\nNo submission deadline has been specified in this circular. Students are requested to contact the student affairs officer (Room 102) for the exact schedule and cutoff dates.",
+  "analysis": {
+    "purpose": {
+      "value": "Central Library digital registration and issuance of RFID identity cards",
+      "status": "stated",
+      "evidence": "complete their Central Library digital access registration and obtain physical RFID identity cards.",
+      "region": "Paragraph 1"
+    },
+    "eligibility": {
+      "value": "Newly enrolled diploma students in 2024-2025 academic session via centralized counseling",
+      "status": "stated",
+      "evidence": "All candidates who have confirmed admission in the 2024-2025 academic session through the centralized counseling process.",
+      "region": "Eligibility section"
+    },
+    "deadline": {
+      "value": null,
+      "status": "not_stated",
+      "evidence": null,
+      "region": null
+    },
+    "required_documents": [
+      {
+        "value": "Provisional Admission Allotment Letter",
+        "status": "stated",
+        "evidence": "Copy of Provisional Admission Allotment Letter",
+        "region": "Documents section"
+      },
+      {
+        "value": "Two recent stamp-sized color photographs",
+        "status": "stated",
+        "evidence": "Two recent stamp-sized color photographs",
+        "region": "Documents section"
+      },
+      {
+        "value": "Blood group verification slip",
+        "status": "stated",
+        "evidence": "Blood group verification slip from any certified clinic",
+        "region": "Documents section"
+      }
+    ],
+    "contact": {
+      "value": "Student Affairs Officer (Room 102)",
+      "status": "stated",
+      "evidence": "contact the student affairs officer (Room 102) for the exact schedule and cutoff dates.",
+      "region": "Note section"
+    },
+    "fee": {
+      "value": "Rs. 150 card processing charge",
+      "status": "stated",
+      "evidence": "Card processing charge of Rs. 150 must be deposited at the Accounts counter.",
+      "region": "Fees section"
+    },
+    "actions": [
+      {
+        "step": 1,
+        "task": "Obtain blood group verification slip and two stamp-sized photos.",
+        "source_evidence": "Two recent stamp-sized color photographs and Blood group verification slip",
+        "done": false
+      },
+      {
+        "step": 2,
+        "task": "Pay Rs. 150 processing fee at Accounts counter and collect receipt.",
+        "source_evidence": "Card processing charge of Rs. 150 must be deposited at the Accounts counter.",
+        "done": false
+      },
+      {
+        "step": 3,
+        "task": "Contact Student Affairs Officer (Room 102) to verify deadline dates.",
+        "source_evidence": "contact the student affairs officer (Room 102) for the exact schedule and cutoff dates.",
+        "done": false
+      },
+      {
+        "step": 4,
+        "task": "Submit documents and receipt at Library Counter No. 3 for RFID card issuance.",
+        "source_evidence": "Students must report to the Library Counter No. 3",
+        "done": false
+      }
+    ],
+    "summary": "First-year diploma students must register for RFID library cards with allotment letter, photos, and blood group report with Rs. 150 fee. The circular does not specify any submission deadline.",
+    "uncertainties": [
+      "No deadline is specified in this circular for submitting the RFID card paperwork."
+    ],
+    "conflicts": [],
+    "limitations": [
+      "Submission deadline is not stated; contact Room 102 directly."
+    ],
+    "language_detected": "en",
+    "raw_notice_text": "GOVERNMENT POLYTECHNIC INSTITUTE\nSTUDENT WELFARE & LIBRARY DIVISION\nCIRCULAR REF: GPI/ADM/2024/44\nDate: 04 September 2024\n\nATTENTION: ALL FRESHLY ADMITTED DIPLOMA STUDENTS\n\nAll newly enrolled students across all branches are hereby directed to complete their Central Library digital access registration and obtain physical RFID identity cards.\n\nELIGIBILITY:\nAll candidates who have confirmed admission in the 2024-2025 academic session through the centralized counseling process.\n\nPROCEDURE & DOCUMENTS REQUIRED:\nStudents must report to the Library Counter No. 3 with:\n1. Copy of Provisional Admission Allotment Letter\n2. Two recent stamp-sized color photographs\n3. Blood group verification slip from any certified clinic\n\nFEES:\nCard processing charge of Rs. 150 must be deposited at the Accounts counter.\n\nNOTE:\nNo submission deadline has been specified in this circular. Students are requested to contact the student affairs officer (Room 102) for the exact schedule and cutoff dates."
+  }
+}
