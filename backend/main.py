@@ -50,6 +50,17 @@ app.add_middleware(
 MAX_FILE_SIZE_BYTES = 8 * 1024 * 1024  # 8 MB limit
 ALLOWED_EXTENSIONS = {".jpg", ".jpeg", ".png"}
 
+@app.get("/")
+def root_index():
+    return {
+        "name": "NoticeGuard AI API",
+        "status": "online",
+        "documentation": "/docs",
+        "health": "/api/health",
+        "version": "1.0.0",
+        "message": "NoticeGuard AI Backend is running with Gemma 4."
+    }
+
 @app.get("/api/health", response_model=HealthResponse)
 def health_check():
     return HealthResponse(
