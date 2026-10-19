@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="NoticeGuard AI banner" width="100%"/>
+<img src="banner.svg" alt="NoticeGuard AI banner" width="100%"/>
 
 <br/>
 
@@ -16,6 +16,15 @@
 ![Gemma](https://img.shields.io/badge/Gemma_4-FFB300?style=for-the-badge&logo=google&logoColor=black)
 ![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)
 
+<br/>
+
+<a href="https://notice-guard-ai.vercel.app/">
+  <img src="https://img.shields.io/badge/%F0%9F%9A%80_LIVE_DEMO-Open_NoticeGuard_AI-DB2777?style=for-the-badge&labelColor=6D28D9" alt="Live Demo" height="46"/>
+</a>
+
+<sub>Hosted on Vercel · Try it now, no sign-up needed</sub>
+
+**[🌐 Live Demo](https://notice-guard-ai.vercel.app/)** •
 **[🚀 Quickstart](#-quickstart-run-the-prototype-in-5-minutes)** •
 **[✨ Features](#-features)** •
 **[🔑 API Key](#-plug-in-your-gemma-4-api-key)** •
@@ -24,6 +33,14 @@
 **[🤝 Contributing](#-contributing)**
 
 </div>
+
+<img src="divider.svg" width="100%" alt=""/>
+
+## 🌐 Live Demo
+
+> 👉 **[https://notice-guard-ai.vercel.app/](https://notice-guard-ai.vercel.app/)**
+
+Open the link, pick a **sample notice** (or paste text / upload a JPG or PNG), then try the checklist, **English ⇄ हिन्दी** toggle, **"See in notice"** highlighting, Q&A and voice.
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
@@ -35,7 +52,7 @@ Official notices are long, jargon-heavy and easy to misread — and a missed dea
 
 > 🧠 **Golden rule:** *If the notice doesn't say it, NoticeGuard doesn't either.*
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="divider.svg" width="100%" alt=""/>
 
 ## ✨ Features
 
@@ -77,7 +94,7 @@ flowchart LR
 - **AI engine:** Gemma 4 through a **single entrypoint** `call_gemma(prompt, image=None)` in `backend/llm.py`
 - **Voice:** Web SpeechRecognition + SpeechSynthesis with graceful fallbacks
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="divider.svg" width="100%" alt=""/>
 
 ## 📁 Project Structure
 
@@ -96,7 +113,7 @@ noticeguard-ai/
 └── README.md
 ```
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="divider.svg" width="100%" alt=""/>
 
 ## 🚀 Quickstart: Run the Prototype in 5 Minutes
 
@@ -203,7 +220,7 @@ DEBUG=false
 
 > 🔐 **Never commit your `.env` file.** It is already listed in `.gitignore`.
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="divider.svg" width="100%" alt=""/>
 
 ## 🧪 Acceptance Tests
 
@@ -219,6 +236,17 @@ DEBUG=false
 | 8 | **Guided mode** | "Guide me" reads steps aloud and listens for *Next*, *Repeat*, *Done*. |
 
 <img src="assets/divider.svg" width="100%" alt=""/>
+
+## ☁️ Deployment
+
+| Part | Host | Notes |
+|---|---|---|
+| ⚛️ Frontend | **Vercel** → [notice-guard-ai.vercel.app](https://notice-guard-ai.vercel.app/) | Root directory: `frontend`, framework: Vite |
+| 🐍 Backend | Render / Railway (or any Python host) | Root: `backend` · Start: `uvicorn main:app --host 0.0.0.0 --port $PORT` |
+
+Set your backend URL as an environment variable on Vercel, and allow your Vercel domain in the backend's CORS settings.
+
+<img src="divider.svg" width="100%" alt=""/>
 
 ## 🛠️ Troubleshooting
 
@@ -249,7 +277,7 @@ DEBUG=false
 - [ ] Shareable / printable checklist
 - [ ] Docker one-command setup
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<img src="divider.svg" width="100%" alt=""/>
 
 ## 🤝 Contributing
 
@@ -269,7 +297,7 @@ Distributed under the **[MIT License](LICENSE)**.
 
 <div align="center">
 
-<img src="assets/divider.svg" width="60%" alt=""/>
+<img src="divider.svg" width="60%" alt=""/>
 
 **Made with 💜 to help people never miss what matters.**
 
